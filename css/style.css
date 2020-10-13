@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #fbfcfc;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+}
+ul, ol{
+    list-style: none;
+}
+
+/* ----- Main CSS Starts ----- */
+.banner{
+    background: url("../img/banner.png") right top no-repeat;
+    background-size: 100%;
+}
+.logo{
+    padding-top: 51px;
+}
+.header-links{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+.header-links li{
+    margin-top: 0px;
+}
+.header-links li a{
+    color: #fff;
+}
+.header-links li .btn{
+    font-size: 14px;
+    background: #fff;
+    color: #14215e;
+    padding: 3px 25px;
+    border-radius: 6px;
+}
+.header-links li .btn:hover{
+    background: transparent;
+    border: 1px solid#fff;
+    color: #fff;
+}
+.banner-inner{
+    margin: 150px 0px 0px 90px;
+    width: 110%;
+    padding-bottom: 130px;
+}
+.banner-inner h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #1c2056;
+}
+.banner-inner p{
+    margin-top: 60px;
+    color: #2d2058;
+    font-size: 12px;
+}
+.banner-inner .btn{
+    margin-top: 60px;
+    padding: 15px 45px;
+    font-size: 14px;
+    color: #fff;
+    background: #2870db;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+.banner-inner .btn:hover{
+    background: #fff;
+    color: #2d2058;
+}
+
+/* ----- Feature section css starts ----- */
+.features{
+    background: url("../img/Features.png") center left no-repeat;
+    background-size: 100%;
+    background-position: 0% -13%;
+}
+.features-header-inner h2{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.feature-img{
+    padding-left: 160px;
+    padding-bottom: 50px;
+}
+.feature-box{
+    padding: 60px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(24, 76, 124, 0.19), 0 6px 6px rgba(37, 84, 138, 0.23);
+    width: 135%;
+    border-radius: 15px;
+}
+.feature-header{
+    font-weight: bold;
+    font-size: 16px;
+}
+.f2{
+    margin-left: 140px;
+    width: 130%;
+}
+.image-02{
+    padding-left: 330px;
+    margin-top: -150px;
+}
+.image-03{
+    margin-top: -100px;
+}
+.feature-button .btn{
+    float: right;
+    margin-top: 160px;
+    margin-right: -110px;
+    padding: 15px 55px;
+    font-size: 14px;
+    color: #fff;
+    background: #2870db;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+.feature-button .btn:hover{
+    background: #fff;
+    color: #2d2058;
+}
+.statistics-header{
+    margin-top: 190px;
+    margin-bottom: 100px;
+}
+.statistics-header h2{
+    font-weight: bold;
+}
+.statistics-container{}
+.statistics-container h2{
+    color: #1a56a3;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ----- News section css starts ----- */
+.news{
+    background: url("../img/card-bg-1.png") center left no-repeat, url("../img/card-bg-2.png") center right no-repeat;
+    background-size: 6%;
+}
+.news-header{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.news-header h2{}
+.bg-1{
+    background: url("../img/card-img-1.png") center center no-repeat;
+    width: 425px;
+    height: 752px;
+}
+.bg-2{
+    background: url("../img/card-img-2.png") center center no-repeat;
+    width: 425px;
+    height: 752px;
+}
+.bg-3{
+    background: url("../img/card-img-3.png") center center no-repeat;
+    width: 425px;
+    height: 752px;
+}
+.card-img .news-container{
+    width: 350px;
+    padding: 260px 0px 0px 65px;
+}
+.card-img .news-container h4{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.card-img .news-container p{
+    color: #546e7a;
+    font-size: 17px;
+    margin-bottom: 70px;
+}
+.card-img .news-container a{
+    color: #2870db;
+    font-weight: 600;
+}
